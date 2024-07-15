@@ -21,9 +21,10 @@ import ImageUpload from "../custom ui/ImageUpload";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import Delete from "../custom ui/Delete";
+
 import MultiSelect from "../custom ui/MultiSelect";
 import Loader from "../custom ui/Loader";
-import MultiText from "../custom ui/Multitext";
+import MultiText from './../custom ui/Multitext';
 
 const formSchema = z.object({
   title: z.string().min(2).max(20),
