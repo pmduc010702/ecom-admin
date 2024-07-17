@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/clerk-js": "^5.9.0",
     "@clerk/nextjs": "^5.2.2",
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-alert-dialog": "^1.1.1",
@@ -30,6 +31,7 @@
     "react-dom": "^18",
     "react-hook-form": "^7.52.1",
     "react-hot-toast": "^2.4.1",
+    "recharts": "^2.12.7",
     "stripe": "^16.2.0",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
